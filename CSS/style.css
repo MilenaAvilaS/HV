@@ -1,0 +1,106 @@
+body{
+    margin:0%;
+    padding: 0;
+    background-color: #f1f8df;
+}
+    
+
+
+.name{
+    width: 100%;
+    height: 12.5rem;
+    background-color: #aee722;
+    transform: skewY(5deg);
+}
+
+.name .content {
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    left: 30%;
+}
+.name .content .nombre {
+    color: rgb(6, 6, 10);
+    font-family:'Viaoda Libre', cursive;
+    font-weight:bolder;
+    font-size: 3.75rem;
+    transform: skewY(-5deg);
+    margin-bottom:0 ;
+} 
+.name .content .edge {
+    color: rgb(8, 8, 20);
+    font-family:'Viaoda Libre', cursive;
+    font-weight: bolder;
+    font-size: 1rem;
+    transform: skewY(-5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+
+} 
+.name .img{
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 2%;
+    transform: skewY(-5deg);
+    overflow: hidden;
+}
+.name .img img{
+    width: 120px;
+    height: 210px;
+}
+
+.infop{
+    width: 90%;
+    height: auto;
+    background-color: #aee722;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+.infop .titulo_infop {
+    color: rgb(9, 78, 35);
+    font-family: 'Viaoda Libre', cursive;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px cornsilk solid;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.infop .titulo_np {
+    color: rgb(39, 120, 120);
+    font-family: 'Cuprum', sans-serif;;
+    font-weight: bolder;
+    font-size: large;
+}
+   
+.infop .titulo_na {
+    color: rgb(39, 120, 120);
+    font-family: 'Cuprum', sans-serif;;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+    margin-right: 15px;
+}
+.infop .titulo_nc{
+    color: rgb(9, 49, 11);
+    font-family: 'Cuprum', sans-serif;;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.infop span{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding-left 1%; 
+    padding-right: 1%;
+    background: blueviolet;
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5%;
+
+}
